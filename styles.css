@@ -1,0 +1,28 @@
+/* font-family: 'Sriracha', cursive;
+font-family: 'Hind', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Montserrat Subrayada', sans-serif; */
+
+
+body {
+  background-image: url('pattern.jpg');
+  font-family: 'Hind', sans-serif;
+}
+
+
+h1 {
+  color: #82ABA1
+
+}
+
+h2 {
+  color: #82ABA1;
+}
+
+h3 {
+  color: #82ABA1;
+  padding: 10px;
+  border: 5px;
+  border-color: #82ABA1;
+  /* float: left; */
+}
