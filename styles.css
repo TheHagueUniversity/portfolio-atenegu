@@ -13,6 +13,7 @@ header {
   margin-left: 400px;
   margin-right: 400px;
   text-align: center;
+  line-height: 8px;
 }
 
 h1 {
@@ -37,8 +38,9 @@ a:hover {
 
 /* ----------------BUTTONS--------------------------- */
 .btn-all{
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .btn {
@@ -78,10 +80,66 @@ a:hover {
 }
 
 /* ----------------EDUCATION--------------------------- */
+.education h3{
+  line-height: 5px;
+}
 
-.about-me {
+.education h4{
+  line-height: 5px;
+}
+
+.education {
   color: #82ABA1;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
+}
+
+/* ----------------WORK EXPERIENCE--------------------------- */
+.work-experience h3{
+  line-height: 5px;
+}
+
+.work-experience h5{
+  line-height: 5px;
+}
+.work-experience {
+  color: #82ABA1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* ----------------PROJECTS--------------------------- */
+
+.projects {
+  color: #82ABA1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* img {
+  border: 1px;
+  border-color: #82ABA1;
+  padding: 5px;
+  width: 150px;
+  float:right;
+}
+
+figcaption {
+  display: block;
+} */
+/* .photo {
+  text-align: center;
+  padding: 10px 20px;
+} */
+
+.dc {
+  /* border: 3px solid #82ABA1;
+  padding: 3px 28px;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 12px; */
 }
