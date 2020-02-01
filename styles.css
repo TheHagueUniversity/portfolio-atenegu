@@ -10,8 +10,10 @@ body {
 }
 
 header {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   text-align: center;
   line-height: 8px;
 }
@@ -22,6 +24,10 @@ h1 {
 }
 
 h2 {
+  color: #82ABA1;
+}
+
+h4 {
   color: #82ABA1;
 }
 
@@ -54,6 +60,21 @@ a:hover {
 }
 
 .btn:hover {
+  background: #82ABA1;
+  color: #061C22;
+}
+
+.btn-back {
+  border: 3px solid #82ABA1;
+  padding: 3px 28px;
+  margin: 20px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 12px;
+  float: right;
+}
+
+.btn-back:hover {
   background: #82ABA1;
   color: #061C22;
 }
@@ -119,27 +140,67 @@ a:hover {
   width: 50%;
 }
 
-/* img {
-  border: 1px;
-  border-color: #82ABA1;
-  padding: 5px;
-  width: 150px;
-  float:right;
+.btn-projects:hover {
+  background: #82ABA1;
+  color: #061C22;
+  border: 3px solid #82ABA1;
+  padding: 3px 14px;
+  margin: auto;
+  border-radius: 12px;
 }
 
-figcaption {
-  display: block;
-} */
-/* .photo {
+/* ----------------CONTACTS--------------------------- */
+
+.contacts {
+  color: #82ABA1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   text-align: center;
-  padding: 10px 20px;
-} */
+  line-height: 100px;
+}
+
+/* ----------------DC--------------------------- */
 
 .dc {
-  /* border: 3px solid #82ABA1;
-  padding: 3px 28px;
-  margin-top: 200px;
-  text-align: center;
-  font-size: 17px;
-  border-radius: 12px; */
+  color: #82ABA1;
+}
+
+
+
+img {
+  width: 600px;
+  float: left;
+  display: flex;
+  padding: 10px;
+}
+
+/* ----------------BESPOKE--------------------------- */
+.persona {
+  width: 900px;
+  float: flex;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pp {
+  width: 400px;
+  float: left;
+  display: flex;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------RD-FOR--------------------------- */
+
+.rd-for {
+color: #82ABA1;
+}
+
+/* ----------------RD-IN--------------------------- */
+
+.rd-in {
+color: #82ABA1;
 }
