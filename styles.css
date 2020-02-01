@@ -2,13 +2,18 @@
 font-family: 'Hind', sans-serif;
 font-family: 'Fredoka One', cursive;
 font-family: 'Montserrat Subrayada', sans-serif; */
-
+/* photo - Brandon Vazquez */
 
 body {
   background-image: url('pattern.jpg');
   font-family: 'Hind', sans-serif;
 }
 
+header {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+}
 
 h1 {
   color: #82ABA1
@@ -19,10 +24,34 @@ h2 {
   color: #82ABA1;
 }
 
-h3 {
+/* ----------------BUTTONS--------------------------- */
+.btn-all{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.btn {
   color: #82ABA1;
-  padding: 10px;
-  border: 5px;
-  border-color: #82ABA1;
-  /* float: left; */
+  border: 3px solid #82ABA1;
+  padding: 3px 28px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background: #82ABA1;
+  color: #061C22;
+}
+
+/* ----------------ABOUT-ME--------------------------- */
+
+.about-me {
+  color: #82ABA1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
