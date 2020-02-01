@@ -24,6 +24,17 @@ h2 {
   color: #82ABA1;
 }
 
+a {
+  text-decoration: none;
+  color: #82ABA1;
+}
+
+a:hover {
+  background: #82ABA1;
+  color: #061C22;
+}
+/* ant borderio uzvedus nesimato raidziu */
+
 /* ----------------BUTTONS--------------------------- */
 .btn-all{
   margin-left: 200px;
@@ -31,14 +42,12 @@ h2 {
 }
 
 .btn {
-  color: #82ABA1;
   border: 3px solid #82ABA1;
   padding: 3px 28px;
   margin: 20px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   border-radius: 12px;
 }
 
@@ -48,6 +57,27 @@ h2 {
 }
 
 /* ----------------ABOUT-ME--------------------------- */
+/* .btn-about-me {
+  background: #82ABA1;
+  color: #061C22;
+  border: 3px solid #82ABA1;
+  padding: 3px 28px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 12px;
+} */
+
+.about-me {
+  color: #82ABA1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* ----------------EDUCATION--------------------------- */
 
 .about-me {
   color: #82ABA1;
