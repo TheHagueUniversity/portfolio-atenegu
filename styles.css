@@ -50,18 +50,9 @@ p {
   background: #82ABA1;
   color: #061C22;
 }
-/* a:hover {
-  background: #82ABA1;
-  color: #061C22;
-} */
-
-/* a:active {
-  background: #82ABA1;
-  color: #061C22;
-} */
-/* ant borderio uzvedus nesimato raidziu */
 
 /* ----------------BUTTONS--------------------------- */
+
 .btn-all{
   margin-left: auto;
   margin-right: auto;
@@ -77,7 +68,9 @@ p {
   display: inline-block;
   font-size: 17px;
   border-radius: 12px;
+  text-decoration: none;
 }
+
 
 .now  {
   color: #82ABA1;
@@ -88,7 +81,9 @@ p {
   display: inline-block;
   font-size: 17px;
   border-radius: 12px;
+  text-decoration: none;
 }
+
 
 .btn:hover {
   background: #82ABA1;
@@ -142,11 +137,15 @@ p {
 }
 /* ----------------EDUCATION--------------------------- */
 .education h3{
-  line-height: 5px;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 0;
 }
 
 .education h4{
-  line-height: 5px;
+  overflow: break-word;
+  padding-top: 0;
 }
 
 .education {
@@ -155,15 +154,20 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+
 /* ----------------WORK EXPERIENCE--------------------------- */
+
 .work-experience h3{
-  line-height: 5px;
+  overflow-wrap: break-word;
 }
 
 .work-experience h5{
-  line-height: 5px;
+  line-height: 1px;
+  overflow: break-word;
 }
 .work-experience {
   color: #82ABA1;
@@ -172,7 +176,26 @@ p {
   width: 50%;
 }
 
+.work {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* ----------------PROJECTS--------------------------- */
+.projects h3 {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 1px;
+  margin-bottom: 0;
+}
+
+#rd-in {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 1px;
+  margin-bottom: 0;
+}
+
 
 .projects {
   color: #82ABA1;
@@ -184,25 +207,40 @@ p {
 .btn-projects:hover {
   background: #82ABA1;
   color: #061C22;
-  border: 3px solid #82ABA1;
-  padding-top: 1px;
-  /* padding-right: 14px; */
-  padding: 1px 10px;
-  margin: auto;
+  border: 1px solid #82ABA1;
+  padding: 1px 5px 1px 1px;
+  margin-left: 5px;
   border-radius: 12px;
 }
 
 a.btn-projects {
-  font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   color: #82ABA1;
+}
+
+.bespoke {
+  margin-top: 35px;
+}
+
+.rd-for {
+  margin-top: 35px;
+}
+
+.rd-in {
+  margin-top: 35px;
 }
 
 a.rijks {
   color: #82ABA1;
   text-decoration: underline;
 }
+
+.projects h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 
 
 /* ----------------CONTACTS--------------------------- */
@@ -214,6 +252,25 @@ a.rijks {
   width: 50%;
   text-align: center;
   line-height: 100px;
+  font-size: 23px;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contacts a:hover {
+  background: #82ABA1;
+  color: #061C22;
+  border: 3px solid #82ABA1;
+  padding-top: 1px;
+  padding: 1px 10px;
+  margin: auto;
+  border-radius: 12px;
 }
 
 #full-jpg {
@@ -258,6 +315,7 @@ a.rijks {
   display: block;
   float: right;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .persona img {
@@ -270,6 +328,8 @@ a.rijks {
 
 .intro-bespoke h2{
   padding-bottom: 1px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .intro-bespoke {
@@ -285,23 +345,6 @@ a.rijks {
   font-size: 23px;
 }
 
-
-/* .pp {
-  color: #82ABA1;
-  display: block;
-  float: right;
-  text-align: center;
-}
-
-.pp img{
-  transform: rotate(270deg);
-  padding: 5px;
-  width: 25%;
-  margin-left: 28%;
-  /* margin-right: auto; */
-  /* float: right;
-  display: grid;
-} */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -309,8 +352,10 @@ a.rijks {
 }
 .column {
   flex: 25%;
-  max-width: 80%;
+  max-width: 40%;
   padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column img {
@@ -318,6 +363,7 @@ a.rijks {
   width: 80%;
   transform: rotate(270deg);
   padding-right: 4px;
+  padding-top: 10px;
 }
 
 .pp {
@@ -326,6 +372,13 @@ a.rijks {
   text-align: center;
   font-size: 20px;
   line-height: 55px;
+}
+
+#pp {
+  font-weight: 600;
+  font-size: 20px;
+  display: inline;
+  align-items: center;
 }
 
 .mm img{
@@ -339,21 +392,43 @@ a.rijks {
   width: 80%;
   text-align: center;
   font-size: 20px;
+  font-weight: 600;
 }
+
 /* ----------------RD-FOR--------------------------- */
 
 .rd-for {
 color: #82ABA1;
-margin-left: auto;
-margin-right: auto;
 }
 
-.rd-for img {
+.projects-rd-for{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-rd-for img {
   width: 50%;
 }
 
 /* ----------------RD-IN--------------------------- */
 
-.rd-in {
+.rd-in h3 {
+font-size: 20px;
+font-weight: 600;
+text-decoration: none;
 color: #82ABA1;
+}
+
+
+
+.projects-rd-in {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.projects-rd-in h3 {
+  font-size: 20px;
+  color: #82ABA1;
 }
